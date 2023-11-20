@@ -1,0 +1,13 @@
+.m-textarea {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    border: 1px solid var(--outline);
+    width: 100%;
+    resize: none;
+    margin-bottom: 16px;
+}
+
+.m-textarea:focus-visible {
+    outline: none;
+    border: 1px solid var(--button-color);
+}

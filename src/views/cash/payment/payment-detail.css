@@ -1,0 +1,138 @@
+.payment-form.modal-content {
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+.payment-form .table-section {
+    padding: 0 20px;
+    overflow-x: overlay;
+}
+
+.payment-form .form-section {
+    padding: 0 32px;
+    background-color: #eceef1;
+    position: relative;
+}
+
+.payment-total {
+    position: absolute;
+    line-height: 1.7rem;
+    top: 0;
+    right: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.payment-total__title {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+}
+
+.payment-total__value {
+    font-size: 3.6rem;
+    line-height: 3.6rem;
+    font-weight: 700;
+}
+
+.payment-form .modal-header {
+    padding: 32px;
+    margin: 0;
+    background-color: #eceef1;
+}
+
+.payment-form .text-input {
+    margin-bottom: 12px !important;
+}
+
+.payment-form .table-container .text-input {
+    margin-bottom: 0 !important;
+}
+
+.payment-form .label-name {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+
+.payment-form .divide {
+    border-left: 1px solid #d4d7dc;
+}
+
+.payment-form .invoice-wrapper {
+    position: relative;
+}
+
+.invoice {
+    position: absolute;
+    bottom: 8.5px;
+    right: -80px;
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+}
+
+.payment-form .cell {
+    background-color: #e5f3ff;
+}
+
+.payment-form .list-wrapper-table .cell {
+    background-color: #fff;
+}
+
+.payment-form .list-wrapper-table tr:hover td {
+    background-color: #F2F2F2;
+}
+
+.payment-form .list-wrapper-table tr.highlight-row td,
+.payment-form .list-wrapper-table tr.highlight-row:hover td {
+    background-color: #b7b7b7;
+}
+
+/* .payment-form tr:hover td {
+    background-color: #e5f3ff;
+    opacity: 0.8;
+} */
+
+.action-wrapper {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.action-wrapper .btn {
+    height: 24px;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+
+.payment-form .modal-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    padding: 8px 32px;
+    background-color: #38393d;
+}
+
+.payment-form .modal-footer .btn {
+    height: 28px;
+}
+
+.payment-form .modal-footer .btn.outline {
+    background-color: transparent;
+    color: #fff;
+}
+
+.payment-form .modal-footer .left {
+    left: 32px;
+}
+
+.payment-form .table {
+    overflow: hidden;
+}
+
+.payment-content {
+    max-height: calc(100vh - 130px);
+    overflow: overlay;
+    width: calc(100vw - 6px);
+}

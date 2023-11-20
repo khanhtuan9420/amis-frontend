@@ -1,0 +1,248 @@
+.combobox-wrapper {
+    margin-bottom: 12px;
+    position: relative;
+    /* z-index: 2; */
+}
+
+.combobox-wrapper input {
+    background-color: #fff;
+}
+
+.combobox-wrapper.error {
+    margin-bottom: 12px;
+}
+
+.combobox-wrapper .loading-container,
+.combobox-wrapper .loading-container img {
+    width: 16px;
+    height: 16px;
+}
+
+.combobox-wrapper .loading-container {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.v-input__control {
+    height: 26px;
+}
+
+.v-field div, .v-field input {
+    border-radius: 2px;
+
+    height: 26px;
+    font-family: NotoRegular;
+    font-size: 1.3rem;
+    /* min-height: 26px; */
+}
+
+.v-field__loader {
+    top: 0;
+}
+
+.v-field--variant-filled .v-field__overlay {
+    background-color: transparent;
+}
+
+.v-field__outline {
+    border: 1px solid var(--outline);
+}
+
+.v-field__outline::before, .v-field__outline::after {
+    display: none;
+}
+
+.v-field__input, .v-combobox--single.v-text-field input {
+    top: 0;
+    margin-top: 0;
+}
+
+.v-combobox--single .v-field--dirty:not(.v-field--focused) input {
+    opacity: 1;
+}
+
+.v-field--focused .v-field__outline {
+    border: 1px solid var(--button-color);
+}
+
+.combobox-wrapper.error .v-field--focused .v-field__outline,
+.combobox-wrapper.error .v-field__outline {
+    border: 1px solid red;
+}
+
+.v-list-item-title {
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+}
+
+.v-input__details {
+    display: none;
+}
+
+.v-list-item {
+    height: 26px !important;
+    min-height: 26px !important;
+}
+
+.combobox-wrapper input {
+    border: 1px solid var(--outline);
+    width: 100%;
+    outline: none;
+    border-radius: 2px;
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+    height: 26px;
+    padding: 0 12px;
+    margin-bottom: 4px;
+}
+
+.combobox-wrapper input:focus {
+    border: 1px solid var(--button-color);
+}
+
+.combobox-wrapper.error input {
+    border: 1px solid red;
+    margin-bottom: 0;
+}
+
+.combobox-wrapper.error .list-wrapper {
+    top: calc(100% + 16px);
+}
+
+.list-wrapper {
+    list-style-type: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid var(--outline);
+    width: 100%;
+    box-shadow: 0px 0px 5px rgba(0,0,0, 0.2);
+    border-radius: 2px;
+    top: calc(100% + 2px);
+    max-height: 160px;
+    overflow-y: overlay;
+    z-index: 100;
+}
+
+.list-wrapper.tippy {
+    position: static;
+}
+
+.list-item {
+    border-radius: 2px;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 26px;
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+}
+
+.list-item.highlighted, .list-item:hover {
+    background-color: #f0f0f0;
+}
+
+.expand-icon {
+    position: absolute;
+    margin-right: 12px;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.1s linear;
+}
+
+.expand-icon.flip {
+    transform: translateY(-50%) rotate(-180deg);
+}
+
+.combobox-with-checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.combobox-with-checkbox .combobox-tippy {
+    margin: 0;
+    margin-left: auto;
+}
+.combobox-with-checkbox .combobox-wrapper {
+    margin: 0;
+    margin-left: auto;
+}
+
+.combobox-disabled {
+    cursor: not-allowed;
+}
+
+.combobox-disabled input {
+    background-color: rgba(0, 0, 0, 0.08);
+    pointer-events: none;
+}
+
+.combobox-wrapper label {
+    display: block;
+    height: 26px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: t;
+}
+
+.loading-item {
+    position: relative;
+    height: 26px;
+}
+ 
+.combobox-wrapper .first-loading {
+    width: 100%;
+    
+}
+
+.list-wrapper-table {
+    width: 500px;
+    height: fit-content;
+    /* overflow: hidden; */
+}
+
+.list-wrapper-table .table-wrapper,
+.list-wrapper-table .table {
+    min-width: unset;
+    padding: 0;
+    overflow: unset;
+}
+
+.list-wrapper-table .table-container {
+    border: none;
+}
+
+.list-wrapper-table .table td,
+.list-wrapper-table .table th {
+    border: none;
+}
+
+.list-wrapper-table .table-container {
+    margin: 0;
+    max-height: 150px;
+}
+
+.list-wrapper-table.list-wrapper {
+    max-height: unset;
+}
+
+.highlight-row td {
+    background-color: #b7b7b7;
+}
+
+tr.highlight-row:hover td{
+    background-color: #b7b7b7;
+}
+
+.list-wrapper-table tr:hover td {
+    background-color: #F2F2F2;
+}
+
+
+.tippy-box {
+    max-width: unset !important;
+}

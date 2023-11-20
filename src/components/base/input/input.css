@@ -1,0 +1,120 @@
+.label {
+    font-weight: 700;
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.label-name {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+}
+
+
+.required {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    color: red;
+    padding-left: 2px;
+}
+
+.text-input {
+    height: 26px;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    padding-left: 12px;
+    padding-right: 12px;
+    outline: none;
+    border: 1px solid var(--outline);
+    border-radius: 2px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.text-input.mb-0 {
+    margin-bottom: 0;
+}
+
+.text-input:focus {
+    border-color: var(--button-color);
+}
+
+.text-input.invalid {
+    border-color: #F06666;
+}
+
+.error-message {
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+    background-color: #f77;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 0 #d4d7dc;
+    max-width: 500px;
+}
+
+.radio-input {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid var(--outline);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    accent-color: var(--button-color);
+}
+
+.radio-input + .label-name {
+    margin-right: 16px;
+    margin-left: 8px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox {
+    display: flex;
+    width: 16px;
+    height: 16px;
+    border: 1px solid var(--outline);
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+.custom-checkbox:focus + .checkbox {
+    border-color: var(--button-color);
+}
+
+.custom-checkbox:checked + .checkbox {
+    background-color: var(--button-color);
+    border-color: transparent;
+}
+
+.tick {
+    display: block;
+    width: 10px;
+    height: 6px;
+    border: 2px solid ;
+    transform: translateY(-2px) rotate(-45deg);
+    border-color: transparent transparent #fff #fff;
+}
+
+input.custom-checkbox {
+    opacity: 0  ;
+    width: 0px;
+    height: 0px;
+}
+
+.checkbox-label {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    margin-left: 8px;
+}
+
+.text-input:disabled {
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, 0.08);
+}

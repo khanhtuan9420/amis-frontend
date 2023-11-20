@@ -1,0 +1,19 @@
+.accordion-header {
+    display: flex;
+    align-items: center;
+}
+
+.accordion-header .btn {
+    width: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+
+.accordion-label {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    margin-left: 4px;
+}

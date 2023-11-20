@@ -1,0 +1,210 @@
+.icon {
+    background-image: url(../assets/img/Sprites.64af8f61.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.search-icon {
+    width: 16px;
+    height: 16px;
+    background-position: -992px -360px;
+}
+
+.reload-icon {
+    width: 22px;
+    height: 24px;
+    background: url(@/assets/img/Sprites.64af8f61.svg) no-repeat;
+    background-position: -425px -200px;
+    cursor: pointer;
+}
+
+.export-icon {
+    width: 24px;
+    height: 24px;
+    background-position: -704px -255px;
+}
+
+.left-arrow-icon {
+    width: 16px;
+    height: 16px;
+    background-position: -34px -360px;
+}
+
+.right-arrow-icon {
+    margin: unset;
+    width: 16px;
+    height: 16px;
+    background-position: -80px -360px;
+}
+
+.icon.down-arrow-icon {
+    width: 16px;
+    height: 16px;
+    background-position: -1128px -362px;
+}
+
+.arrow-down-icon {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-color: red;
+    background: url(@/assets/img/Sprites.64af8f61.svg) no-repeat;
+    background-position: -896px -358px;
+}
+
+.triangle-down-icon {
+    margin: unset;
+    width: 16px;
+    height: 16px;
+    background-position: -560px -359px;
+}
+
+.celendar-icon {
+    width: 20px;
+    height: 16px;
+    background-position: -128px  -312px;
+}
+
+.close-icon {
+    width: 24px;
+    height: 24px;
+    background-position: -144px -144px;
+}
+
+.general-icon {
+    width: 24px;
+    height: 24px;
+    background-position: -30px -1586px;
+}
+
+.cash-icon {
+    width: 24px;
+    height: 24px;
+    background-position: -73px -1587px;
+}
+
+.deposit-icon {
+    width: 24px;
+    height: 24px;
+    background-position: -117px -1587px;
+}
+
+.purchase-icon {
+    background-position: -161px -1587px;
+    width: 24px;
+    height: 24px;
+}
+
+.sell-icon {
+    width: 24px;
+    height: 24px;
+    background-position: -205px -1587px;
+}
+
+.bill-icon {
+    background-position: -249px -1587px;
+    width: 24px;
+    height: 24px;
+}
+
+.warehouse-icon {
+    width: 24px;
+    height: 24px;
+    background-position: -291px -1587px;
+}
+
+.tool-icon {
+    width: 24px;
+    height: 24px;
+    background-position: -336px -1587px;
+}
+
+.real-estate-icon {
+    width: 24px;
+    height: 24px;
+    background-position: -379px -1587px;
+}
+
+.tax-icon {
+    width: 24px;
+    height: 24px;
+    background-position: -423px -1587px;
+}
+
+.price-icon {
+    width: 24px;
+    height: 24px;
+    background-position: -467px -1587px;
+}
+
+.synthetic-icon {
+    height: 24px;
+    width: 24px;
+    background-position: -511px -1587px;
+}
+
+.budget-icon {
+    width: 24px;
+    height: 24px;
+    background-position: -423px -1661px;
+}
+
+.report-icon {
+    width: 24px;
+    height: 24px;
+    background-position: -547px -1587px;
+}
+
+.analysis-icon {
+    width: 24px;
+    height: 24px;
+    background-position: -248px -1663px;
+}
+
+.garbage-icon {
+    width: 18px;
+    height: 18px;
+    background-position: -1031px -406px;
+}
+
+.plus-icon {
+    width: 16px;
+    height: 16px;
+    background-position: -608px -312px;
+}
+
+.minus-icon {
+    width: 16px;
+    height: 16px;
+    background-position: -560px -312px;
+}
+
+.close-accordion-icon {
+    width: 8px;
+    height: 10px;
+    background-position: -324px -363px;
+}
+
+.open-accordion-icon {
+    width: 10px;
+    height: 8px;
+    background-position: -371px -364px;
+}
+
+.expand-form-icon {
+    width: 12px;
+    height: 50px;
+    background-position: -522px -544px;
+}
+
+.error-icon {
+    width: 40px;
+    height: 34px;
+    background-position: -24px -960px;
+}
+
+.question-icon {
+    background-position: -826px -456px;
+    width: 48px;
+    height: 48px;
+}

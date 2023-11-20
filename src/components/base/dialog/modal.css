@@ -1,0 +1,95 @@
+
+
+.modal-content {
+    width: 900px;
+    background-color: #fff;
+    border-radius: 4px;
+    position: relative;
+    padding: 16px;
+}
+
+.modal .text-input {
+    height: 26px;
+    margin-bottom: 16px;
+}
+
+.input-wrapper {
+    height: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.modal-footer {
+    display: flex;
+    padding-top: 16px;
+    position: relative;
+    border-top: 1px solid var(--outline);
+}
+
+.modal-footer button:nth-child(1) {
+    margin-left: auto;
+}
+
+.modal-content.no-footer-border .modal-footer{
+    border: none;
+}
+
+.modal.inside {
+    position: absolute;
+}
+
+.dialog-noti {
+    line-height: unset;
+}
+
+.close-button {
+    width: 32px;
+    height: 32px;
+}
+
+.modal-footer .left {
+    position: absolute;
+    left: 0;
+    margin: unset;
+}
+
+/* type fix */
+
+.modal-content.fix {
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    width: 50%;
+    min-width: 800px;
+    right: 0;
+    transition: all 0.3s ease;
+}
+
+.modal-content.fix .modal-footer {
+    margin-top: auto;
+}
+
+.expand-form-btn {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 16px;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.expand-form-btn:hover {
+    opacity: 1;
+}
+
+.modal-content.fix.form-expand {
+    width: calc(100% - 12px);
+}
+
+.modal-content.fix.form-expand .expand-form-btn {
+    transform: translate(-50%, -50%) scaleX(-1);
+}
